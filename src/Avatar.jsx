@@ -1,6 +1,8 @@
 import { getImageUrl } from "./utils";
 
-function Avatar({ person, size = 50 }) {
+function Avatar({ person, size }) {
+  let imageId = size < 90 ? "s" : "b";
+  //   let size = size < 90 ? "s" : "b";
   return (
     <img
       className="avatar"

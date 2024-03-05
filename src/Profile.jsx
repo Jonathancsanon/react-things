@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export function Profile({
   name,
-  size = 70,
+  size,
   profession,
   awards,
   discovered,

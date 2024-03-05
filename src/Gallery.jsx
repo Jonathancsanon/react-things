@@ -9,6 +9,7 @@ export default function Gallery() {
         awards="(Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)"
         discovered="polonium (chemical element)"
         imageId="szV5sdG"
+        size={40}
       />
       <Profile
         name="Katsuko Saruhashi"
@@ -16,6 +17,7 @@ export default function Gallery() {
         awards="(Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)"
         discovered="polonium (chemical element)"
         imageId="YfeOqp2"
+        size={100}
       />
     </section>
   );
