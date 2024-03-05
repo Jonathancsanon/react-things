@@ -1,8 +1,9 @@
-function Item({ name, isPacked }) {
+function Item({ name, isPacked, importance }) {
   return (
     <li className="item">
       {/* {isPacked ? name + "✔" : name + "❌"} */}
-      {name} {isPacked ? "✔" : "❌"}
+      {name} {importance > 0 && <i>(Importance:{importance})</i>}
+      {isPacked ? "✔" : "❌"}
     </li>
   );
 }
