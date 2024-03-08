@@ -4,6 +4,7 @@ import DrinkList from "./DrinkList";
 import Gallery from "./Gallery";
 import List from "./List";
 import PackingList from "./PackingList";
+import RecipeList from "./RecipeList";
 import TodoList from "./ToDoList";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <PackingList />
       <DrinkList />
       <List />
+      <RecipeList />
     </>
   );
 }
