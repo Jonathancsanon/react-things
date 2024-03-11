@@ -1,5 +1,6 @@
 import Bio from "./Bio";
 import Clock from "./Clock";
+// import Collapse from "./Collapse";
 import Congratulations from "./Congratulations";
 import DrinkList from "./DrinkList";
 import Gallery from "./Gallery";
@@ -7,6 +8,7 @@ import List from "./List";
 import PackingList from "./PackingList";
 import Poem from "./Poem";
 import RecipeList from "./RecipeList";
+// import StoryTray from "./StoryTray";
 import TodoList from "./ToDoList";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <RecipeList />
       <Poem />
       <Clock />
+      {/* <Collapse /> */}
+      {/* <StoryTray /> */}
     </>
   );
 }
