@@ -1,4 +1,5 @@
 import Bio from "./Bio";
+import Clock from "./Clock";
 import Congratulations from "./Congratulations";
 import DrinkList from "./DrinkList";
 import Gallery from "./Gallery";
@@ -20,6 +21,7 @@ function App() {
       <List />
       <RecipeList />
       <Poem />
+      <Clock />
     </>
   );
 }
