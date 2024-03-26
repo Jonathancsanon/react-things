@@ -1,5 +1,6 @@
 import Bio from "./Bio";
 import Clock from "./Clock";
+import ColorSwitch from "./ColorSwitch";
 // import Collapse from "./Collapse";
 import Congratulations from "./Congratulations";
 import DrinkList from "./DrinkList";
@@ -26,6 +27,7 @@ function App() {
       <Poem />
       <Clock />
       <LightSwitch />
+      <ColorSwitch />
       {/* <Collapse /> */}
       {/* <StoryTray /> */}
     </>
